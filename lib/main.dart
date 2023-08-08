@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'my_appbar.dart';
 
 import 'home.dart';
-import 'my_drawer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +16,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Home(),
     );

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:nyt_clone_drawer_appbar_tabbar/my_appbar.dart';
 import 'package:nyt_clone_drawer_appbar_tabbar/my_drawer.dart';
 
@@ -22,10 +20,10 @@ class _HomeState extends State<Home> {
         key: scaffoldKey,
         appBar: Appbar(
           scaffoldKey: scaffoldKey,
-          size: Size(20, 120),
+          size: const Size(20, 120),
         ),
-        drawer: My_Drawer(),
-        body: TabBarView(
+        drawer: const My_Drawer(),
+        body: const TabBarView(
           children: <Widget>[
             Center(
               child: Text(

@@ -1,8 +1,4 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
-
-import 'my_drawer.dart';
 
 class Appbar extends StatefulWidget implements PreferredSizeWidget {
   final Size size;
@@ -21,7 +17,7 @@ class Appbar extends StatefulWidget implements PreferredSizeWidget {
 }
 
 class _AppbarState extends State<Appbar> {
-  TabBar get _tabBar => TabBar(
+  TabBar get _tabBar => const TabBar(
         indicatorColor: Colors.white,
         tabs: [
           Tab(
@@ -58,8 +54,8 @@ class _AppbarState extends State<Appbar> {
             padding: EdgeInsets.all(8.0), child: Icon(Icons.draw)),
         onTap: () => widget.scaffoldKey.currentState?.openDrawer(),
       ),
-      backgroundColor: Color(0xFFCA303C),
-      title: TextField(
+      backgroundColor: const Color(0xFFCA303C),
+      title: const TextField(
         decoration: InputDecoration(
           prefixIcon: Icon(
             Icons.search,

@@ -77,13 +77,13 @@ class _My_DrawerState extends State<My_Drawer> {
                   child: TextButton.icon(
                     icon: Icon(
                       icons[index - 1],
-                      color: Color(0xFF808080),
+                      color: const Color(0xFF808080),
                     ),
                     label: Padding(
                       padding: const EdgeInsets.only(left: 16.0),
                       child: Text(
                         name[index - 1],
-                        style: TextStyle(color: Colors.black),
+                        style: const TextStyle(color: Colors.black),
                       ),
                     ),
                     onPressed: () {},
@@ -99,7 +99,7 @@ class _My_DrawerState extends State<My_Drawer> {
                 const Divider(),
                 Text(
                   title[index == 9 ? 0 : 1], // title
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: Colors.black38,
                   ),
                 ),
@@ -108,13 +108,13 @@ class _My_DrawerState extends State<My_Drawer> {
                   child: TextButton.icon(
                     icon: Icon(
                       icons[index - 1],
-                      color: Color(0xFF808080),
+                      color: const Color(0xFF808080),
                     ),
                     label: Padding(
                       padding: const EdgeInsets.only(left: 16.0),
                       child: Text(
                         name[index - 1],
-                        style: TextStyle(color: Colors.black),
+                        style: const TextStyle(color: Colors.black),
                       ),
                     ),
                     onPressed: () {},
@@ -132,13 +132,13 @@ class _My_DrawerState extends State<My_Drawer> {
                   child: TextButton.icon(
                     icon: Icon(
                       icons[index - 1],
-                      color: Color(0xFF808080),
+                      color: const Color(0xFF808080),
                     ),
                     label: Padding(
                       padding: const EdgeInsets.only(left: 8.0),
                       child: Text(
                         name[index - 1],
-                        style: TextStyle(color: Colors.black),
+                        style: const TextStyle(color: Colors.black),
                       ),
                     ),
                     onPressed: () {},
